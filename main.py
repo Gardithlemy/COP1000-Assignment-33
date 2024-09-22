@@ -14,9 +14,10 @@ month = None
 day = None
 
 # Get the year, then the month, then the day
-month =input("month: ")
-year =input("year: ")
-day =input("day: ")
+month =input("month = ")
+
+day =input("day = ")
+year =input("year = ")
 # housekeeping()
 
 # Check to be sure date is valid
@@ -32,8 +33,9 @@ elif int(day) < MIN_DAY or int(day) > MAX_DAY: # invalid day
 
 # endOfJob()
 if validDate == True:
-    print(month+"/"+day+"/"+year+" is valid")
+    print(month+"/"+day+"/"+year+" is a valid date")
     # Output statement
 else:
-    print(month+"/"+day+"/"+year+" is not valid")
+    print(month+"/"+day+"/"+year+" is an invalid date")
     # Output statement
+
